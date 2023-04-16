@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./img/Phi-hanh-gia_-3-scaled.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.w-mp3 {
+  position: fixed;
+  width: 100%;
+  background: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  padding: 0 50px;
+}
+
+.mp3-left {
+  display: flex;
+}
+
+.mp3-left img {
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.mp3-singer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.mp3-singer .mp3-title {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.mp3-singer .mp3-singer-name {
+  font-size: 14px;
+  color: #858080;
+}
+
+.mp3-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.mp3-btn {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.btn i {
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.btn-play .fa-play-pause {
+  display: none;
+}
+.mp3-range #progress {
+  width: 800px;
+}
+
+.display_none {
+  display: none;
+}
+
+.display_block {
+  display: block;
+}

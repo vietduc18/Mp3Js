@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <footer class="w-mp3">
+      <div class="mp3-left">
+        <img
+          src=""
+          alt=""
+          class="mp3-img"
+        />
+        <div class="mp3-singer">
+          <h4 class="mp3-title"></h4>
+          <p class="mp3-singer-name"></p>
+        </div>
+      </div>
+       <div class = "mp3-center"> 
+      <div class="mp3-btn">
+        <div class="btn btn-repeat">
+          <i class="fa-solid fa-rotate-right"></i>
+        </div>
+        <div class="btn btn-prev">
+          <i class="fa-solid fa-backward"></i>
+        </div>
+        <div class="btn btn-play">
+          <i class="fa-solid fa-play"></i>
+        </div>
+         <div class="btn btn-play-pause display_none">
+           <i class="fa-solid fa-pause"></i>
+        </div>
+        <div class="btn btn-next">
+          <i class="fa-solid fa-forward"></i>
+        </div>
+        <div class="btn btn-random">
+          <i class="fa-solid fa-shuffle"></i>
+        </div>
+      </div>
+        <div class="mp3-range">
+            <input type="range" name="" id="progress" value="0" step="1" max="100">
+        </div>
+      </div>
+        <audio id="audio" src="${song.path}"></audio>
+      </div>
+
+      <div class="btn-right">
+        <input type="range" name="" id="volume" value="0" step="1" max="100">
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
